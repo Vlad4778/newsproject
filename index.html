@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>NEWSproject</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">   
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar  -->
+    <div class="container-fluid p-0 mb-3">
+        <nav class="navbar navbar-expand-lg bg-light navbar-light py-2 py-lg-0 px-lg-5">
+            <a href="" class="navbar-brand d-block d-lg-none">
+                <h1 class="m-0 display-5 text-uppercase"><span class="text-primary">News</span>project</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-0 px-lg-3" id="navbarCollapse">
+                <div class="navbar-nav mr-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active">Главная</a>
+                    <a href="politic.html" class="nav-item nav-link">Политика</a>
+                    <a href="econom.html" class="nav-item nav-link">Экономика</a>
+                    <a href="sport.html" class="nav-item nav-link">Спорт</a>
+                    <a href="kino.html" class="nav-item nav-link">Кино</a>
+                    <a href="tehno.html" class="nav-item nav-link">Технологии</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">События</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="#" class="dropdown-item">Сегодня </a>
+                            <a href="#" class="dropdown-item">Вчера</a>
+                            <a href="#" class="dropdown-item">Неделя</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Поделиться новостью</a>
+                </div>
+                <div class="input-group ml-auto" style="width: 100%; max-width: 300px;">
+                    <input type="text" class="form-control" placeholder="Поиск">
+                    <div class="input-group-append">
+                        <button class="input-group-text text-secondary"><i
+                                class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <!-- Main  -->
+    <div class="container-fluid py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="owl-carousel owl-carousel-2 carousel-item-1 position-relative mb-3 mb-lg-0">
+
+                        <div class="position-relative overflow-hidden" style="height: 435px;">
+                            <img class="img-fluid h-100" src="img/sport.jpg" style="object-fit: cover;">
+                            <div class="overlay">
+                                <div class="mb-1">
+                                    <a class="text-white" href="sport.html">Спорт</a>
+                                    <span class="px-2 text-white">/</span>
+                                    <a class="text-white" href="sport.html">20.05.2022</a>
+                                </div>
+                                <a class="h2 m-0 text-white font-weight-bold" href="sport.html">Тренер олимпийской сборной по борьбе.</a>
+                            </div>
+                        </div>
+
+                        <div class="position-relative overflow-hidden" style="height: 435px;">
+                          <img class="img-fluid h-100" src="img/politic.jpg" style="object-fit: cover;">
+                          <div class="overlay">
+                              <div class="mb-1">
+                                  <a class="text-white" href="politic.html">Политика</a>
+                                  <span class="px-2 text-white">/</span>
+                                  <a class="text-white" href="#">20.05.2022</a>
+                              </div>
+                              <a class="h2 m-0 text-white font-weight-bold" href="politic.html">Шавкат Мирзиёев вылетел в ОАЭ.</a>
+                          </div>
+                        </div>
+
+                        <div class="position-relative overflow-hidden" style="height: 435px;">
+                          <img class="img-fluid h-100" src="img/kino.jpg" style="object-fit: cover;">
+                          <div class="overlay">
+                              <div class="mb-1">
+                                  <a class="text-white" href="kino.html">Кино</a>
+                                  <span class="px-2 text-white">/</span>
+                                  <a class="text-white" href="#">20.05.2022</a>
+                              </div>
+                              <a class="h2 m-0 text-white font-weight-bold" href="kino.html">В Ташкенте стартовали Дни белорусского кино.</a>
+                          </div>
+                        </div>
+
+                        <div class="position-relative overflow-hidden" style="height: 435px;">
+                        <img class="img-fluid h-100" src="img/texno.jpg" style="object-fit: cover;">
+                        <div class="overlay">
+                            <div class="mb-1">
+                                <a class="text-white" href="tehno.html">Технологии</a>
+                                <span class="px-2 text-white">/</span>
+                                <a class="text-white" href="#">20.05.2022</a>
+                            </div>
+                            <a class="h2 m-0 text-white font-weight-bold" href="tehno.html">Fergana Global Textile: новые технологии и инновации</a>
+                        </div>
+                        </div>
+
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Featured  -->
+    <div class="container-fluid py-3">
+        <div class="container">
+            <div class="fon d-flex align-items-center justify-content-between py-2 px-4 mb-3">
+                <h3 class="text-light m-0">Избранное</h3>
+                <a class="text-secondary font-weight-medium text-decoration-none" href="">Показать все</a>
+            </div>
+            <div class="owl-carousel owl-carousel-2 carousel-item-4 position-relative">
+                <div class="position-relative overflow-hidden" style="height: 300px;">
+                    <img class="img-fluid w-100 h-100" src="img/texno.jpg" style="object-fit: cover;">
+                    <div class="overlay">
+                        <div class="mb-1" style="font-size: 13px;">
+                            <a class="text-white" href="tehno.html">Технологии</a>
+                            <span class="px-1 text-white">/</span>
+                            <a class="text-white" href="#">17.05.2022</a>
+                        </div>
+                        <a class="h4 m-0 text-white" href="tehno.html">Fergana Global Textile</a>
+                    </div>
+                </div>
+                <div class="position-relative overflow-hidden" style="height: 300px;">
+                    <img class="img-fluid w-100 h-100" src="img/travel.jpg" style="object-fit: cover;">
+                    <div class="overlay">
+                        <div class="mb-1" style="font-size: 13px;">
+                            <a class="text-white" href="travel.html">Путешествие</a>
+                            <span class="px-1 text-white">/</span>
+                            <a class="text-white" href="#">15.05.2022</a>
+                        </div>
+                        <a class="h4 m-0 text-white" href="travel.html">«Путешествую без COVID-19»</a>
+                    </div>
+                </div>
+                <div class="position-relative overflow-hidden" style="height: 300px;">
+                    <img class="img-fluid w-100 h-100" src="img/politic.jpg" style="object-fit: cover;">
+                    <div class="overlay">
+                        <div class="mb-1" style="font-size: 13px;">
+                            <a class="text-white" href="politic.html">Политика</a>
+                            <span class="px-1 text-white">/</span>
+                            <a class="text-white" href="#">18.05.2022</a>
+                        </div>
+                        <a class="h4 m-0 text-white" href="politic.html">Шавкат Мирзиёев вылетел в ОАЭ</a>
+                    </div>
+                </div>
+                <div class="position-relative overflow-hidden" style="height: 300px;">
+                    <img class="img-fluid w-100 h-100" src="img/econom.jpg" style="object-fit: cover;">
+                    <div class="overlay">
+                        <div class="mb-1" style="font-size: 13px;">
+                            <a class="text-white" href="econom.html">Экономика</a>
+                            <span class="px-1 text-white">/</span>
+                            <a class="text-white" href="#">18.05.2022</a>
+                        </div>
+                        <a class="h4 m-0 text-white" href="econom.html">Замглавы ЦБ — о том, как внешние риски</a>
+                    </div>
+                </div>
+                <div class="position-relative overflow-hidden" style="height: 300px;">
+                    <img class="img-fluid w-100 h-100" src="img/news-300x300-5.jpg" style="object-fit: cover;">
+                    <div class="overlay">
+                        <div class="mb-1" style="font-size: 13px;">
+                            <a class="text-white" href="kino.html">Кино</a>
+                            <span class="px-1 text-white">/</span>
+                            <a class="text-white" href="#">16.05.2022</a>
+                        </div>
+                        <a class="h4 m-0 text-white" href="kino.html">Sanctus amet sed ipsum lorem</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!--  Sidebar -->
+    <div class="container-fluid py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="row mb-3">
+                        <div class="col-12">
+                            <div class="fon d-flex align-items-center justify-content-between py-2 px-4 mb-3">
+                                <h3 class="text-light m-0">Популярные</h3>
+                                <a class="text-secondary font-weight-medium text-decoration-none" href="#">Показать все</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="position-relative mb-3">
+                                <img class="img-fluid w-100" src="img/texno.jpg" style="object-fit: cover;">
+                                <div class="overlay position-relative bg-light">
+                                    <div class="mb-2" style="font-size: 14px;">
+                                        <a href="#">Технологии</a>
+                                        <span class="px-1">/</span>
+                                        <span>08.09.2022</span>
+                                    </div>
+                                    <a class="h4" href="tehno.html">Fergana Global Textile: новые технологии и инновации</a>
+                                    <p class="m-0">екстильная компания Global Textile Group открыла фабрику в Фергане, которая будет выпускать 13 тысяч тонн пряжи и 9 млн метров готовой ткани</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-3">
+                                <img src="img/sport.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                    <div class="mb-1" style="font-size: 13px;">
+                                        <a href="sport.html">Спорт</a>
+                                        <span class="px-1">/</span>
+                                        <span>06.09.2022</span>
+                                    </div>
+                                    <a class="h6 m-0" href="sport.html">Tренер олимпийской сборной по борьбе</a>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-3">
+                                <img src="img/travel.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                    <div class="mb-1" style="font-size: 13px;">
+                                        <a href="travel.html">Путешествие</a>
+                                        <span class="px-1">/</span>
+                                        <span>06.09.2022</span>
+                                    </div>
+                                    <a class="h6 m-0" href="travel.html">Узбекистан присоединился к приложению «Путешествую без COVID-19</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="position-relative mb-3">
+                                <img class="img-fluid w-100" src="img/econom.jpg" style="object-fit: cover;">
+                                <div class="overlay position-relative bg-light">
+                                    <div class="mb-2" style="font-size: 14px;">
+                                        <a href="econom.html">Экономика</a>
+                                        <span class="px-1">/</span>
+                                        <span>06.09.2022</span>
+                                    </div>
+                                    <a class="h4" href="econom.html">Замглавы ЦБ — о том, как внешние риски и шоки повлияют на экономику Узбекистана</a>
+                                    <p class="m-0">Заместитель главы Центробанка Бехзод Хамраев сообщил, что последние события в мире будут оказывать негативное влияние</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-3">
+                                <img src="img/kino.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                    <div class="mb-1" style="font-size: 13px;">
+                                        <a href="kino.html">Кино</a>
+                                        <span class="px-1">/</span>
+                                        <span>06.09.2022</span>
+                                    </div>
+                                    <a class="h6 m-0" href="kino.html">В Ташкенте стартовали Дни белорусского кино</a>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-3">
+                                <img src="img/politic.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                    <div class="mb-1" style="font-size: 13px;">
+                                        <a href="politic.html">Политика</a>
+                                        <span class="px-1">/</span>
+                                        <span>06.09.2022</span>
+                                    </div>
+                                    <a class="h6 m-0" href="politic.html">Шавкат Мирзиёев вылетел в ОАЭ</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    
+                    <div class="row">
+                        <div class="col-12">
+                            <div class=" fon d-flex align-items-center justify-content-between bg-light py-2 px-4 mb-3">
+                                <h3 class="text-light m-0">Сегодня</h3>
+                                <a class="text-secondary font-weight-medium text-decoration-none" href="#">Показать все</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="position-relative mb-3">
+                                <img class="img-fluid w-100" src="img/texno.jpg" style="object-fit: cover;">
+                                <div class="overlay position-relative bg-light">
+                                    <div class="mb-2" style="font-size: 14px;">
+                                        <a href="tehno.html">Технологии</a>
+                                        <span class="px-1">/</span>
+                                        <span>06.09.2022</span>
+                                    </div>
+                                    <a class="h4" href="tehno.html">Fergana Global Textile: новые технологии и инновации</a>
+                                    <p class="m-0">Текстильная компания Global Textile Group открыла фабрику в Фергане, которая будет выпускать 13 тысяч тонн пряжи и 9 млн метров готовой ткани.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-3">
+                                <img src="img/sport.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                    <div class="mb-1" style="font-size: 13px;">
+                                        <a href="sport.html">Спорт</a>
+                                        <span class="px-1">/</span>
+                                        <span>06.09.2022</span>
+                                    </div>
+                                    <a class="h6 m-0" href="">Tренер олимпийской сборной по борьбе</a>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-3">
+                                <img src="img/kino.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                    <div class="mb-1" style="font-size: 13px;">
+                                        <a href="kino.html">Кино</a>
+                                        <span class="px-1">/</span>
+                                        <span>06.09.2022</span>
+                                    </div>
+                                    <a class="h6 m-0" href="kino.html">В Ташкенте стартовали Дни белорусского кино</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="position-relative mb-3">
+                                <img class="img-fluid w-100" src="img/econom.jpg" style="object-fit: cover;">
+                                <div class="overlay position-relative bg-light">
+                                    <div class="mb-2" style="font-size: 14px;">
+                                        <a href="econom.html">Экономика</a>
+                                        <span class="px-1">/</span>
+                                        <span>06.09.2022</span>
+                                    </div>
+                                    <a class="h4" href="">Замглавы ЦБ — о том, как внешние риски и шоки повлияют на экономику Узбекистана</a>
+                                    <p class="m-0">Заместитель главы Центробанка Бехзод Хамраев сообщил, что последние события в мире будут оказывать негативное влияние</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-3">
+                                <img src="img/travel.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                    <div class="mb-1" style="font-size: 13px;">
+                                        <a href="travel.html">Путешествие</a>
+                                        <span class="px-1">/</span>
+                                        <span>06.09.2022</span>
+                                    </div>
+                                    <a class="h6 m-0" href="">Узбекистан присоединился к приложению «Путешествую без COVID-19»</a>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-3">
+                                <img src="img/politic.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                    <div class="mb-1" style="font-size: 13px;">
+                                        <a href="politic.html">Политика</a>
+                                        <span class="px-1">/</span>
+                                        <span>06.09.2022</span>
+                                    </div>
+                                    <a class="h6 m-0" href="">Шавкат Мирзиёев вылетел в ОАЭ</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 pt-3 pt-lg-0">
+                    <!-- Follow  -->
+                    <div class="pb-3">
+                        <div class="fon py-2 px-4 mb-3">
+                            <h4 class="text-light m-0">Подписывайтесь на нас</h4>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <a href="" class="d-block w-50 py-2 px-3 text-white text-decoration-none mr-2" style="background: #39569E;">
+                                <small class="fab fa-facebook-f mr-2"></small><small>12,345 Fans</small>
+                            </a>
+                            <a href="" class="d-block w-50 py-2 px-3 text-white text-decoration-none ml-2" style="background: #52AAF4;">
+                                <small class="fab fa-twitter mr-2"></small><small>12,345 Followers</small>
+                            </a>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <a href="" class="d-block w-50 py-2 px-3 text-white text-decoration-none mr-2" style="background: #0185AE;">
+                                <small class="fab fa-linkedin-in mr-2"></small><small>12,345 Connects</small>
+                            </a>
+                            <a href="" class="d-block w-50 py-2 px-3 text-white text-decoration-none ml-2" style="background: #C8359D;">
+                                <small class="fab fa-instagram mr-2"></small><small>12,345 Followers</small>
+                            </a>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <a href="" class="d-block w-50 py-2 px-3 text-white text-decoration-none mr-2" style="background: #DC472E;">
+                                <small class="fab fa-youtube mr-2"></small><small>12,345 Subscribers</small>
+                            </a>
+                            <a href="" class="d-block w-50 py-2 px-3 text-white text-decoration-none ml-2" style="background: #1AB7EA;">
+                                <small class="fab fa-vimeo-v mr-2"></small><small>12,345 Followers</small>
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <!-- Trend News -->
+                    <div class="pb-3">
+                        <div class="fon py-2 px-4 mb-3">
+                            <h3 class="text-light m-0">В тренде</h3>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="img/sport.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                <div class="mb-1" style="font-size: 13px;">
+                                    <a href="sport.html">Спорт</a>
+                                    <span class="px-1">/</span>
+                                    <span>24.05.2022</span>
+                                </div>
+                                <a class="h6 m-0" href="">Вы тренируетесь не для того, чтобы обижать прохожих, а показывать результаты в спорте</a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="img/texno.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                <div class="mb-1" style="font-size: 13px;">
+                                    <a href="tehno.html">Технологии</a>
+                                    <span class="px-1">/</span>
+                                    <span>20.05.2022</span>
+                                </div>
+                                <a class="h6 m-0" href="">Fergana Global Textile: новые технологии и инновации</a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="img/econom.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                <div class="mb-1" style="font-size: 13px;">
+                                    <a href="econom.html">Экономика</a>
+                                    <span class="px-1">/</span>
+                                    <span>21.05.2022</span>
+                                </div>
+                                <a class="h6 m-0" href="">Замглавы ЦБ — о том, как внешние риски и шоки повлияют на экономику Узбекистана</a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="img/kino.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                <div class="mb-1" style="font-size: 13px;">
+                                    <a href="kino.html">Кино</a>
+                                    <span class="px-1">/</span>
+                                    <span>11.05.2022</span>
+                                </div>
+                                <a class="h6 m-0" href="">В Ташкенте стартовали Дни белорусского кино</a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="img/travel.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                <div class="mb-1" style="font-size: 13px;">
+                                    <a href="travel.html">Путешествие</a>
+                                    <span class="px-1">/</span>
+                                    <span>17.05.2022</span>
+                                </div>
+                                <a class="h6 m-0" href="">Узбекистан присоединился к приложению «Путешествую без COVID-19»</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tags -->
+                    <div class="pb-3">
+                        <div class="fon py-2 px-4 mb-3">
+                            <h3 class="text-light m-0">Тэги</h3>
+                        </div>
+                        <div class="d-flex flex-wrap m-n1">
+                          <a href="" class="btn btn-sm btn-outline-primary m-1">Политика</a>
+                          <a href="" class="btn btn-sm btn-outline-dark m-1">Спорт</a>
+                          <a href="" class="btn btn-sm btn-outline-info m-1">Экономика</a>
+                          <a href="" class="btn btn-sm btn-outline-danger m-1">Кино</a>
+                          <a href="" class="btn btn-sm btn-outline-warning m-1">Технологии</a>
+                          <a href="" class="btn btn-sm btn-outline-info m-1">Образование</a>
+                          <a href="" class="btn btn-sm btn-outline-dark m-1">Путешествие</a>
+                          <a href="" class="btn btn-sm btn-outline-warning m-1">Медецина</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-light pt-5 px-sm-3 px-md-5">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="mb-2 mt-n2 display-5 text-uppercase text-light"><span class="text-primary">News</span>project</h1>
+                </a>
+                <p class="text-light">Поделитесь новостями с нашего сайта в социальных сетях</p>
+                <div class="d-flex justify-content-start mt-4">
+                    <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="font-weight-bold text-light mb-4">Категории</h4>
+                <div class="d-flex flex-wrap m-n1">
+                    <a href="" class="btn btn-sm btn-outline-light m-1">Политика</a>
+                    <a href="" class="btn btn-sm btn-outline-light m-1">Спорт</a>
+                    <a href="" class="btn btn-sm btn-outline-light m-1">Экономика</a>
+                    <a href="" class="btn btn-sm btn-outline-light m-1">Кино</a>
+                    <a href="" class="btn btn-sm btn-outline-light m-1">Технологии</a>
+                    <a href="" class="btn btn-sm btn-outline-light m-1">Образование</a>
+                    <a href="" class="btn btn-sm btn-outline-light m-1">Путешествие</a>
+                    <a href="" class="btn btn-sm btn-outline-light m-1">Медецина</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="font-weight-bold text-light mb-4">Тэги</h4>
+                <div class="d-flex flex-wrap m-n1">
+                  <a href="" class="btn btn-sm btn-outline-light m-1">Политика</a>
+                  <a href="" class="btn btn-sm btn-outline-light m-1">Спорт</a>
+                  <a href="" class="btn btn-sm btn-outline-light m-1">Экономика</a>
+                  <a href="" class="btn btn-sm btn-outline-light m-1">Кино</a>
+                  <a href="" class="btn btn-sm btn-outline-light m-1">Технологии</a>
+                  <a href="" class="btn btn-sm btn-outline-light m-1">Образование</a>
+                  <a href="" class="btn btn-sm btn-outline-light m-1">Путешествие</a>
+                  <a href="" class="btn btn-sm btn-outline-light m-1">Медецина</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="font-weight-bold text-light mb-4">О нас</h4>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-light mb-2" href="#"><i class="fa fa-angle-right text-light mr-2"></i>О сайте</a>
+                    <a class="text-light mb-2" href="#"><i class="fa fa-angle-right text-light mr-2"></i>Связаться с нами</a>
+                    <a class="text-light" href="#"><i class="fa fa-angle-right text-light mr-2"></i>Поделиться новостью</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
